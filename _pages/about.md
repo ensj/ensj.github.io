@@ -3,7 +3,7 @@ permalink: /about/
 title: "About"
 ---
 
-![Image of Myself](/assets/img/memyselfni.jpg)
+![Image of Myself](../assets/images/memyselfni.jpg)
 
 Hey! I'm Junhyun Lim. 
 
