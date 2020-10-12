@@ -3,6 +3,16 @@ permalink: /about/
 title: "About"
 ---
 
-Tempor velit sint sunt ipsum tempor enim ad qui ullamco. Est dolore anim ad velit duis dolore minim sunt aliquip amet commodo labore. Ut eu pariatur aute ea aute excepteur laborum. Esse ea esse excepteur minim mollit qui cillum excepteur ex dolore magna. Labore deserunt fugiat incididunt incididunt sint ea. Consequat dolore aute laboris quis proident quis non et est consectetur ex eiusmod sit culpa.
+![Image of Myself](/assets/img/memyselfni.jpg)
 
-Cupidatat ea do et in excepteur in. Ad nostrud ut est esse eu duis ea sunt eiusmod. Aliquip tempor veniam sint elit fugiat. Velit incididunt laboris amet incididunt labore dolore irure velit excepteur commodo deserunt laborum. Consectetur eu fugiat veniam veniam Lorem labore magna eiusmod. Ea occaecat reprehenderit pariatur consectetur minim labore ut aliquip.
+Hey! I'm Junhyun Lim. 
+
+I also go by names like ensj, and Jimmy. I'm currently studying for an undergraduate degree in Math and Computer Science in Santa Clara University!
+
+A little less well-known, but I've also worked as a Korean-English translator since 2015! I've worked on / been involved in the following projects in below websites:
+- [Wuxiaworld](https://www.wuxiaworld.com/)
+  - [Life, Once Again!](https://www.wuxiaworld.com/novel/life-once-again)
+- [Ensj Translations](https://ensjtrans.com/)
+  - [I'm Sorry For Being Born In This World!](https://www.amazon.com/Sorry-Being-Born-This-World-ebook/dp/B07HFTYNDD/ref=sr_1_1?dchild=1&keywords=Im+sorry+for+being+born&qid=1599399817&sr=8-1)
+
+This website is primarily for me to write about the various things I've done & developed an interest in. You can expect scribbles about Number Theory, Linear Algebra, and Graph Theory! Perhaps some scritches about the spaghetti code I've written in the past as well. Who knows?

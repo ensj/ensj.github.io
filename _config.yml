@@ -58,7 +58,7 @@ plugins:
 
 author:
   name   : "Junhyun Lim"
-  avatar : "/assets/images/avatar.jpg"
+  avatar : "/assets/images/avatar.jpeg"
   bio    : "I'm a math & cs student from Santa Clara University. I go by Jimmy and Ensj as well!"
   links:
     - label: "Website"
