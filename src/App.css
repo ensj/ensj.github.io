@@ -1,38 +1,73 @@
-.App {
+@font-face {
+  font-family: 'Computer Modern';
+  src: url('http://mirrors.ctan.org/fonts/cm-unicode/fonts/otf/cmunrm.otf') format('otf');
+}
+@font-face {
+  font-family: 'Computer Modern';
+  src: url('http://mirrors.ctan.org/fonts/cm-unicode/fonts/otf/cmunrb.otf') format('otf');
+  font-weight: bold;
+}
+@font-face {
+  font-family: 'Computer Modern';
+  src: url('http://mirrors.ctan.org/fonts/cm-unicode/fonts/otf/cmunti.otf') format('otf');
+  font-style: italic, oblique;
+}
+@font-face {
+  font-family: 'Computer Modern';
+  src: url('http://mirrors.ctan.org/fonts/cm-unicode/fonts/otf/cmunbi.otf') format('otf');
+  font-weight: bold;
+  font-style: italic, oblique;
+}
+
+.title {
   text-align: center;
+  font-size: 50px;
+  margin-top: 50px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.subtitle {
+  text-align: center;
+  font-size: 25px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  text-align: center;
+  padding: 10px 16px;
+  text-decoration: underline;
+  font-size: 20px;
+}
+
+a:visited {
+  text-decoration: none;
+  color: inherit;
+}
+
+body {
+  background-color: #e7dfd6;
+  color: #444444;
+  font-size: calc(5px + 2vmin);
+  font-family: 'Computer Modern';
+}
+
+.content {
+  padding: 0 27vw 30px 27vw;
+}
+
+header {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
 }
