@@ -17,6 +17,9 @@ export default function VoronoiStippling() {
     image.onload = () => {
       if (!ctx) return
 
+      ctx.canvas.style.width = image.width + 'px'
+      ctx.canvas.style.height = image.height + 'px'
+
       ctx.canvas.width = image.width
       ctx.canvas.height = image.height
 

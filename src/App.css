@@ -49,6 +49,10 @@ li a {
   font-size: 20px;
 }
 
+a:link {
+  color: inherit;
+}
+
 a:visited {
   text-decoration: none;
   color: inherit;
@@ -62,7 +66,7 @@ body {
 }
 
 .content {
-  padding: 0 27vw 30px 27vw;
+  padding: 0 27% 30px 27%;
 }
 
 header {
