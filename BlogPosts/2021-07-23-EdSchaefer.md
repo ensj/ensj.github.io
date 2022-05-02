@@ -1,8 +1,8 @@
 ---
 title: FibPseudoprime
 date: 2020-11-23 6:57
-categories: [Development]
-tags: [thoughts, git, math]
+categories: [Mathematics]
+tags: [thoughts, math]
 math: true
 ---
 
