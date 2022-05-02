@@ -3,8 +3,28 @@ import { BrowserRouter as Router, Routes, Route, NavLink } from 'react-router-do
 import { Blog } from './Pages/Blog'
 import { Home } from './Pages/Home'
 import { About } from './Pages/About'
+import { useEffect, useState } from 'react'
 
 function App() {
+  const [blogs, setBlogs] = useState([])
+
+  useEffect(() => {
+    fetch(process.env.PUBLIC_URL + '/BlogPosts/blogs.json', {
+      headers: {
+        'Content-Type': 'application/json',
+        Accept: 'application/json',
+      },
+    })
+      .then(function (response) {
+        console.log(response)
+        return response.json()
+      })
+      .then(function (myJson) {
+        console.log(myJson)
+        setBlogs(myJson)
+      })
+  }, [])
+
   return (
     <Router>
       <div className="App">
