@@ -28,18 +28,18 @@ export function About() {
         </p>
         <p>
           In terms of projects I've done, I most recently worked on a graph visualizer project called{' '}
-          <Link to="https://www.graphvizer.com/">graphvizer</Link>. The aim of this web app was to help students get a
-          feel for how algorithms might work through an animated visual with custom diagrams!
+          <a href="https://www.graphvizer.com/">graphvizer</a>. The aim of this web app was to help students get a feel
+          for how algorithms might work through an animated visual with custom diagrams!
         </p>
         <p>
           I don't have much to show in terms of my work on mathematics. Here is a{' '}
-          <Link to="https://arxiv.org/abs/2105.13513">paper</Link> that was published with professor Ed Schaefer and my
+          <a href="https://arxiv.org/abs/2105.13513">paper</a> that was published with professor Ed Schaefer and my
           friend Shaunak Mashalkar on Fibonacci Pseudoprimes. It was accepted by the Fibonacci Quarterly on May 2021.
         </p>
         <p>
           I've also translated Korean novels to English for 5 years in the past. Most of my work is located at{' '}
-          <Link to="https://ensjtrans.wordpress.com/">my old blog</Link>, but you can also check out my last project in{' '}
-          <Link to="https://www.wuxiaworld.com/novel/life-once-again">Wuxiaworld</Link>.
+          <a href="https://ensjtrans.wordpress.com/">my old blog</a>, but you can also check out my last project in{' '}
+          <a href="https://www.wuxiaworld.com/novel/life-once-again">Wuxiaworld</a>.
         </p>
 
         <p>For a more detailed information on the things I've done, you can take a look at my resume below.</p>

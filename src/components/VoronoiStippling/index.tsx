@@ -84,7 +84,7 @@ export default function VoronoiStippling() {
         </p>
         <p>
           Much of a code was implemented with the help of{' '}
-          <Link to="https://observablehq.com/@mbostock/voronoi-stippling">this article</Link>.
+          <a href="https://observablehq.com/@mbostock/voronoi-stippling">this article</a>.
         </p>
       </div>
     </>
