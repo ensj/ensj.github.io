@@ -1,7 +1,7 @@
 {
   "blogs": [
     {
-      "title": "First Post!",
+      "title": "First Post",
       "path": "first-post",
       "filePath": "/BlogPosts/FirstPost.md",
       "date": "2020-09-06",
@@ -19,7 +19,7 @@
       "tags": ["algorithms", "math", "linear algebra"]
     },
     {
-      "title": "Git Blame is my new favorite git command!",
+      "title": "Why git blame is my new favorite git command",
       "path": "git-blame",
       "filePath": "/BlogPosts/GitBlame.md",
       "date": "2020-11-07",
