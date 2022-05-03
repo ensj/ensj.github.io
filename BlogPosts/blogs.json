@@ -3,6 +3,7 @@
     {
       "title": "First Post!",
       "path": "first-post",
+      "filePath": "BlogPosts/2020-09-06-FirstPost.md",
       "date": "2020-09-06",
       "preview": "This is my first post in this website! Go me!",
       "categories": ["Random"],
@@ -11,6 +12,7 @@
     {
       "title": "A Short (?) Introduction to Matrix Transposition Algorithms",
       "path": "matrix-transpose",
+      "filePath": "BlogPosts/2020-09-16-Transposes.md",
       "date": "2020-09-16",
       "preview": "Recently I had the chance to try using PCA for a data analysis project I was working on at Riderdash. Specifically, I was trying to convert a time-series data into a user-feature matrix of sorts so that I could analyze it with dimensionality reduction.",
       "categories": ["Algorithm"],
@@ -19,6 +21,7 @@
     {
       "title": "Git Blame is my new favorite git command!",
       "path": "git-blame",
+      "filePath": "BlogPosts/2020-11-07-GitBlame.md",
       "date": "2020-11-07",
       "preview": "Since June, I've been doing an internship at a place called [Riderdash](https://www.riderdash.com/). I've learned *quite* a lot of things in my stay here...",
       "categories": ["Development"],
@@ -27,6 +30,7 @@
     {
       "title": "FibPseudoprime",
       "path": "fibpseudoprime",
+      "filePath": "BlogPosts/2021-07-23-EdSchaefer.md",
       "date": "2021-07-23",
       "preview": "This is a review of the research project that I was a part of in late 2020 to spring 2021, under professor Ed Schaefer in Santa Clara University. I was working with Shaunak Mashalkar at the time.",
       "categories": ["Mathematics"],
