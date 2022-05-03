@@ -29,8 +29,6 @@ export function Blog() {
       .then(function (myJson) {
         const foundBlog: BlogType = myJson.blogs.find((blog: BlogType) => blog.path === blogPath.params.blogId)
 
-        console.log(process.env.PUBLIC_URL + foundBlog.filePath)
-
         fetch(process.env.PUBLIC_URL + foundBlog.filePath)
           .then((r) => r.text())
           .then((text) => {
