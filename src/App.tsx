@@ -1,30 +1,10 @@
 import './App.css'
-import { BrowserRouter as Router, Routes, Route, NavLink } from 'react-router-dom'
+import { HashRouter as Router, Routes, Route, NavLink } from 'react-router-dom'
+import { Blogs } from './Pages/Blogs'
 import { Blog } from './Pages/Blog'
 import { Home } from './Pages/Home'
 import { About } from './Pages/About'
-import { useEffect, useState } from 'react'
-
 function App() {
-  const [blogs, setBlogs] = useState([])
-
-  useEffect(() => {
-    fetch(process.env.PUBLIC_URL + '/BlogPosts/blogs.json', {
-      headers: {
-        'Content-Type': 'application/json',
-        Accept: 'application/json',
-      },
-    })
-      .then(function (response) {
-        console.log(response)
-        return response.json()
-      })
-      .then(function (myJson) {
-        console.log(myJson)
-        setBlogs(myJson)
-      })
-  }, [])
-
   return (
     <Router>
       <div className="App">
@@ -37,7 +17,7 @@ function App() {
                 <NavLink to="/">Home</NavLink>
               </li>
               <li>
-                <NavLink to="/blog">Blog</NavLink>
+                <NavLink to="/blog">Blogs</NavLink>
               </li>
               <li>
                 <NavLink to="/about">About</NavLink>
@@ -49,18 +29,8 @@ function App() {
         <div className="content">
           <Routes>
             <Route path="/about" element={<About />} />
-            <Route path="/blog" element={<Blog />} />
-
-            <Route path="/2020/09/06/First-Post" element={<Home />} />
-            <Route path="/2020/09/16/Transposes" element={<Home />} />
-            <Route path="/2020/09" element={<About />} />
-            <Route path="/2020/11/07/Git-Blame" element={<Home />} />
-            <Route path="/2020/09" element={<About />} />
-            <Route path="/2020" element={<Blog />} />
-            <Route path="/2021/07/23" element={<Home />} />
-            <Route path="/2021/07" element={<About />} />
-            <Route path="/2021" element={<Blog />} />
-
+            <Route path="/blog/:blogId" element={<Blog />} />
+            <Route path="/blog" element={<Blogs />} />
             <Route path="/" element={<Home />} />
           </Routes>
         </div>

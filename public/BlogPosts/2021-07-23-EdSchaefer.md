@@ -1,10 +1,4 @@
----
-title: FibPseudoprime
-date: 2020-11-23 6:57
-categories: [Mathematics]
-tags: [thoughts, math]
-math: true
----
+# FibPseudoprime
 
 This is a review of the research project that I was a part of in late 2020 to spring 2021, under professor Ed Schaefer in Santa Clara University. I was working with Shaunak Mashalkar at the time.
 

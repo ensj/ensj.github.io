@@ -1,4 +1,3 @@
-import { Link } from 'react-router-dom'
 import { Document, Page } from 'react-pdf/dist/esm/entry.webpack5'
 import useResize from '../hooks/useResize'
 import { useRef } from 'react'
