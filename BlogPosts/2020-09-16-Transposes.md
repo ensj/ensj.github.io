@@ -51,7 +51,7 @@ In the following sections, we'll take a look at several different implementation
 
 ## First Attempt - Brute Force
 
-```
+```python
 def transpose(matrix):
     res = []
     for i in range(len(matrix[0])):
@@ -71,7 +71,7 @@ Thankfully, fixing both of these is a relatively easy task. Let's take a look at
 
 ---
 
-## Row-major, Column-major.
+## Row-major, Column-major
 
 The 2d array issue is relatively simple. We can just store the array in a row-major order. Row-major ordering of a matrix is where each row of the matrix is laid out in a 1d array in a continuous order. There is also a method of ordering the matrix by columns, which is, of course, referred to as column-major ordering. For row-major $$n \times m$$ matrix $$A$$, you can access its element $$A_{ij}$$ with the following formula:
 
@@ -89,7 +89,7 @@ Getting back on topic, this information also provides us with a very intuitive a
 
 ## Second Attempt - Just read it sideways
 
-```
+```python
 def readByRow(matrix, n, m):
     for i in range(n * m):
         print matrix[i] + " "
@@ -117,7 +117,7 @@ For now, we'll focus solely on taking transposes of square matrices from here on
 
 ## Third Attempt - Ok, let's start over
 
-```
+```python
 def squareTranspose(matrix):
     if len(matrix) != len(matrix[0]):
         print("Hey! This isn't square!")
@@ -155,7 +155,7 @@ I'd love to try coding up an implementation of both of these solutions described
 
 That turned out to be a long article, didn't it? Isn't it surprising that we're only halfway there to talking about the full story? I'll see if I can get the next half uploaded soon, so stay tuned. In the meantime, take a look at the wikipedia article for [in-place transpositions](https://en.wikipedia.org/wiki/In-place_matrix_transposition) for more detail.
 
-### References:
+### References
 
 - [In-place matrix transpositions (Wikipedia)](https://en.wikipedia.org/wiki/In-place_matrix_transposition#Square_matrices)
 - [Row and column-major order (Wikipedia)](https://en.wikipedia.org/wiki/Row-_and_column-major_order)

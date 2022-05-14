@@ -1,6 +1,15 @@
 {
   "blogs": [
     {
+      "title": "The Blog Renewal",
+      "path": "renewal",
+      "filePath": "/BlogPosts/2022-05-14-BlogInReview.md",
+      "date": "2022-05-15",
+      "preview": "After the first iteration of my blog (which I built with Jekyll, as most github pages users do), I kind of didn't really touch it after writing a few blog posts. A part of the reason why was admittedly because I felt a bit lazy about writing new blog posts. I'm still working on that. But...",
+      "categories": ["Development"],
+      "tags": ["thoughts"]
+    },
+    {
       "title": "First Post",
       "path": "first-post",
       "filePath": "/BlogPosts/2020-09-06-FirstPost.md",
